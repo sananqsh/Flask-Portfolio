@@ -47,7 +47,7 @@ By querying IEX, you`re able to check real stocks’ actual prices. But first, y
   
   - `pip3 install -r requirements.txt`
 
-- Finally, before running the app, you need to introduce the application to your terminal by exporting the FLASK_APP environment variable:
+- Before running the app, you need to introduce the application to your terminal by exporting the FLASK_APP environment variable:
   
   - Bash: `$ export FLASK_APP=hello`
   
@@ -56,3 +56,5 @@ By querying IEX, you`re able to check real stocks’ actual prices. But first, y
   - CMD: `> set FLASK_APP=hello`
   
   - Powershell: `> $env:FLASK_APP = "hello"`
+- Finally, running the application:
+  - `flask run`
