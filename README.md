@@ -6,8 +6,6 @@ This project was a Harvard`s CS50 course assignment.
 
 Using python, HTML, CSS and a SQL database to store IEX API and user info, this application offers a portfolio.
 
-By querying IEX, you`re able to check real stocks’ actual prices.
-
 ## Sections:
 **register**: It allows a user to register for an account via a form.
 
@@ -24,7 +22,7 @@ By querying IEX, you`re able to check real stocks’ actual prices.
 **check**: It checks whether a username is available.
 
 ## Configure:
-You’ll need to register for an API key in order to be able to query IEX’s data. To do so, follow these steps:
+By querying IEX, you`re able to check real stocks’ actual prices. But first, you’ll need to register for an API key in order to be able to query IEX’s data. To do so, follow these steps:
 
   - Visit [IEX](iexcloud.io/cloud-login#/register/.)
   
