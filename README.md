@@ -38,6 +38,8 @@ By querying IEX, you`re able to check real stocks’ actual prices. But first, y
 
 > where value is that (pasted) value, without any space immediately before or after the =. You also may wish to paste that value in a text document somewhere, in case you need it again later.
 
+> Looks like the IEX API access is restricted to paid subscribers. One has to upgrade to gain access...
+
 ## Run:
 - First thing install Start [Python 3](https://www.python.org/downloads/).
 
@@ -49,12 +51,12 @@ By querying IEX, you`re able to check real stocks’ actual prices. But first, y
 
 - Before running the app, you need to introduce the application to your terminal by exporting the FLASK_APP environment variable:
   
-  - Bash: `$ export FLASK_APP=hello`
+  - Bash: `$ export FLASK_APP=application.py`
   
-  - Fish: `$ set -x FLASK_APP hello`
+  - Fish: `$ set -x FLASK_APP application.py`
   
-  - CMD: `> set FLASK_APP=hello`
+  - CMD: `> set FLASK_APP=application.py`
   
-  - Powershell: `> $env:FLASK_APP = "hello"`
+  - Powershell: `> $env:FLASK_APP = "application.py"`
 - Finally, running the application:
   - `flask run`
